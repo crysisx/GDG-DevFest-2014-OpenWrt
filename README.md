@@ -182,7 +182,7 @@ Zooboa，已多次为杭州GDG活动提供Freedom网络服务，来体验吧。
 - **Google+:crysisx**
 - **Mail:yyx843984246@gmail.com&&yyx@betahouse.us**
 
-##ReferenceT
+##Reference
 
 - https://openwrt.org
 - http://www.shadowsocks.net
