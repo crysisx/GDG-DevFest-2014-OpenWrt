@@ -1,0 +1,64 @@
+10
+
+dir
+43011
+svn://svn.openwrt.org/openwrt/trunk/package/system
+svn://svn.openwrt.org/openwrt
+
+
+
+2014-10-20T13:55:11.651927Z
+43005
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3c298f89-4303-0410-b956-a3cf2f4a3e73
+
+opkg
+dir
+
+uci
+dir
+
+zram-swap
+dir
+
+udev
+dir
+
+mtd
+dir
+
+ca-certificates
+dir
+
+mountd
+dir
+
+procd
+dir
+
+rpcd
+dir
+
+fstools
+dir
+
+ubox
+dir
+
+ubus
+dir
+
