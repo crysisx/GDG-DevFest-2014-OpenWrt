@@ -95,7 +95,8 @@ then install need package:
 get from svn 
    
     cd ~
-    svn checkout svn://svn.openwrt.org/openwrt/trunk openwrt
+    git clone https://github.com/crysisx/GDG-DevFest-2014-OpenWrt.git
+    cd GDG-DevFest-2014-OpenWrt
 
 You can check out a currently installed revision with
 
