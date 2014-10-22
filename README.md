@@ -184,9 +184,9 @@ Zooboa，已多次为杭州GDG活动提供Freedom网络服务，来体验吧。
 - 
 ##ReferenceT
 
-- https://openwrt.org/
-- http://www.shadowsocks.net/
-- owncloud.org
+- https://openwrt.org
+- http://www.shadowsocks.net
+- http://owncloud.org
 - https://wiki.archlinux.org/index.php/Aria2c
 
 
