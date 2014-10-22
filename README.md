@@ -173,7 +173,7 @@ Zooboa，已多次为杭州GDG活动提供Freedom网络服务，来体验吧。
 杭州GDG，针对其中完成度较高的App，将协助上传到Google Play并做推广。
 - 19:00-20:45 Ingress Hangzhou 面基&PK Again
 
-##Thanks all
+##Contact
 
 - **Author:crysisx**
 - **Web-site:www.hdume.com**
