@@ -108,15 +108,19 @@ Updating Feeds
     ./scripts/feeds update -a
     ./scripts/feeds install -a
 The OpenWrt Buildroot configuration interface handles the selection of the target platform, packages to be compiled, packages to be included in the firmware file, some kernel options, choose what you need package and luci 
+
+###then Defconfig
    
     make defconfig
+###then Defconfig
+   
     make prereq
+###then Defconfig
+   
     make menuconfig
 
 ![杭州GDG DevFest](assets/img/ccxx.gif)
-###then Defconfig
 
-    make defconfig
 ###Building Images
     
     make V=99
