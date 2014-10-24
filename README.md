@@ -92,6 +92,11 @@ then install need package:
 
     #yum install libncurses5-dev zlib1g-dev bison flex unzip autoconf gawk make  gettext gettext texinfo sharutils gcc binutils ncurses-term patch bzip2 libbz2-dev libz-dev asciidoc subversion sphinxsearch libtool git git-core curl ncurses-devel zlib-devel gcc-c++
 
+you can add user openwrt and set password 
+   
+    adduser  openwrt
+    passwd  openwrt
+    su openwrt
 get from svn git
    
     cd ~
