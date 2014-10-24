@@ -103,13 +103,6 @@ get from svn git
     git clone https://github.com/crysisx/GDG-DevFest-2014-OpenWrt.git
     cd GDG-DevFest-2014-OpenWrt
 
-You can check out a currently installed revision with
-
-    svn info
-
-Update sources:
-
-    svn update
 Updating Feeds
 
     ./scripts/feeds update -a
