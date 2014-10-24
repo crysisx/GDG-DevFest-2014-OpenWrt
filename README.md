@@ -94,36 +94,36 @@ then install need package:
 
 you can add user openwrt and set password 
    
-    adduser  openwrt
-    passwd  openwrt
-    su openwrt
+    #adduser  openwrt
+    #passwd  openwrt
+    #su openwrt
 get from svn git
    
-    cd ~
-    git clone https://github.com/crysisx/GDG-DevFest-2014-OpenWrt.git
-    cd GDG-DevFest-2014-OpenWrt
+    #cd ~
+    #git clone https://github.com/crysisx/GDG-DevFest-2014-OpenWrt.git
+    #cd GDG-DevFest-2014-OpenWrt
 
 Updating Feeds
 
-    ./scripts/feeds update -a
-    ./scripts/feeds install -a
+    #./scripts/feeds update -a
+    #./scripts/feeds install -a
 The OpenWrt Buildroot configuration interface handles the selection of the target platform, packages to be compiled, packages to be included in the firmware file, some kernel options, choose what you need package and luci 
 
 ###then Defconfig
    
-    make defconfig
+    #make defconfig
 ###then Defconfig
    
-    make prereq
+    #make prereq
 ###then Defconfig
    
-    make menuconfig
+    #make menuconfig
 
 ![杭州GDG DevFest](assets/img/ccxx.gif)
 
 ###Building Images
     
-    make V=99
+    #make V=99
 
 ###Locating Images
 
@@ -132,15 +132,15 @@ After a successful build, the freshly built image(s) can be found in the newly c
 ##Cleaning Up  
 ###Clean 
  
-    make Dirclean
+    #make Dirclean
 deletes contents of the directories /bin and /build_dir. make clean does not remove the toolchain, it also avoids cleaning architectures/targets other than the one you have selected in your .config
 ###Dirclean
    
-    make dirclean
+    #make dirclean
 deletes contents of the directories /bin and /build_dir and additionally /staging_dir and /toolchain (=the cross-compile tools) and /logs. 'Dirclean' is your basic "Full clean" operation.
 ###Distclean
 
-    make distclean
+    #make distclean
 nukes everything you have compiled or configured and also deletes all downloaded feeds contents and package sources.
 # 杭州GDG DevFest 2014
 
