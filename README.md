@@ -132,7 +132,7 @@ After a successful build, the freshly built image(s) can be found in the newly c
 ##Cleaning Up  
 ###Clean 
  
-    Dirclean
+    make Dirclean
 deletes contents of the directories /bin and /build_dir. make clean does not remove the toolchain, it also avoids cleaning architectures/targets other than the one you have selected in your .config
 ###Dirclean
    
