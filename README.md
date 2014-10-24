@@ -97,7 +97,7 @@ you can add user openwrt and set password
     adduser  openwrt
     passwd  openwrt
     su openwrt
-get from svn git
+get from svn git（ The source is modified with the openwrt official version ）
    
     cd ~
     git clone https://github.com/crysisx/GDG-DevFest-2014-OpenWrt.git
